@@ -75,7 +75,7 @@ function App() {
       
       <div className='containerFooter'>
       <img src={IconPrimary} alt='Primary icon' />
-      <p>34 Crosby Drive Suite 202, Bedford, MA 01730</p>
+      <p>We are present in all states across the United States. Our headquarters is located at 34 Crosby Drive Suite 202, Bedford, MA 01730.</p>
 
       <p>Call Us:  <strong>888.720.1710</strong></p>
 
