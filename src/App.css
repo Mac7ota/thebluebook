@@ -76,8 +76,8 @@
     }
 
   > input {
-    width: 94%;
-    margin: 0px 15px 10px 10px;
+    width: auto;
+    margin: 0px 15px 10px 15px;
     height: 30px;
     border-radius: 5px;
     border: 1px solid #e7e7e7;
@@ -118,7 +118,7 @@
     font-weight: bold;
     border: none;
     border-radius: 5px;
-    padding: 20px 60px;
+    padding: 20px 40px;
     font-size: 22px;
     background-color: #ec6923;
     cursor: pointer;
