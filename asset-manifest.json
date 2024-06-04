@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/thebluebook/static/css/main.31e97968.css",
-    "main.js": "/thebluebook/static/js/main.8b6a0192.js",
+    "main.js": "/thebluebook/static/js/main.d9b008f4.js",
     "static/media/BlueBook.svg": "/thebluebook/static/media/BlueBook.085db774d9df95bd6eaed61a70b8e009.svg",
     "index.html": "/thebluebook/index.html",
     "main.31e97968.css.map": "/thebluebook/static/css/main.31e97968.css.map",
-    "main.8b6a0192.js.map": "/thebluebook/static/js/main.8b6a0192.js.map"
+    "main.d9b008f4.js.map": "/thebluebook/static/js/main.d9b008f4.js.map"
   },
   "entrypoints": [
     "static/css/main.31e97968.css",
-    "static/js/main.8b6a0192.js"
+    "static/js/main.d9b008f4.js"
   ]
 }
