@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/thebluebook/static/css/main.31e97968.css",
-    "main.js": "/thebluebook/static/js/main.d9b008f4.js",
-    "static/media/BlueBook.svg": "/thebluebook/static/media/BlueBook.085db774d9df95bd6eaed61a70b8e009.svg",
-    "index.html": "/thebluebook/index.html",
-    "main.31e97968.css.map": "/thebluebook/static/css/main.31e97968.css.map",
-    "main.d9b008f4.js.map": "/thebluebook/static/js/main.d9b008f4.js.map"
+    "main.css": "/static/css/main.31e97968.css",
+    "main.js": "/static/js/main.13c579e8.js",
+    "static/media/BlueBook.svg": "/static/media/BlueBook.085db774d9df95bd6eaed61a70b8e009.svg",
+    "index.html": "/index.html",
+    "main.31e97968.css.map": "/static/css/main.31e97968.css.map",
+    "main.13c579e8.js.map": "/static/js/main.13c579e8.js.map"
   },
   "entrypoints": [
     "static/css/main.31e97968.css",
-    "static/js/main.d9b008f4.js"
+    "static/js/main.13c579e8.js"
   ]
 }
