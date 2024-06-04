@@ -6,6 +6,8 @@ import React from 'react';
 import { useFormik } from 'formik';
 import * as Yup from 'yup';
 import * as Email from 'emailjs-com';
+import { BrowserRouter as Router } from 'react-router-dom';
+
 
 const validationSchema = Yup.object({
   firstname: Yup.string()
@@ -31,6 +33,7 @@ const validationSchema = Yup.object({
 });
 
 function App() {
+  const basename = window.location.hostname === 'mac7ota.github.io' ? '/thebluebook' : '/';
   const formik = useFormik({
     initialValues: {
       firstname: '',
@@ -58,6 +61,7 @@ function App() {
   });
 
   return (
+    <Router basename={basename}>    
     <div className="App">
       <nav className='containerNav'>
         <img src={IconPrimary} alt='Primary icon' />
@@ -184,6 +188,7 @@ function App() {
       </div>
 
     </div>
+    </Router>
   );
 }
 
