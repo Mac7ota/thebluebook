@@ -288,12 +288,13 @@
     flex-direction: column;
     > div:first-child{ 
       width: 100%;
-
+      margin-bottom: 20px;
       > video {
-        max-width: 250px;
+        height: 150px;
+        width: 250px;
         border-radius: 5px;
       }
-      margin-bottom: 20px;
+      
   }
 
     > div:nth-child(2){
@@ -302,7 +303,8 @@
       > div:nth-child(1) { 
         margin-bottom: 20px;
         > canvas {
-        max-width: 250px;
+          height: 150px;
+        width: 250px;
         border-radius: 5px;
       }}
 

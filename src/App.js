@@ -51,7 +51,13 @@ function App() {
 
   function openModal() {
     setModalIsOpen(true);
-    navigator.mediaDevices.getUserMedia({ video: true })
+    navigator.mediaDevices.getUserMedia({ 
+      video: { 
+        facingMode: 'user', 
+        width: { ideal: 4096 }, 
+        height: { ideal: 2160 } 
+      } 
+    })
       .then(stream => {
         videoRef.current.srcObject = stream;
       });
@@ -131,12 +137,12 @@ function App() {
         <div className='Modal'>
 
           <div>        <h2>Required Permissions</h2>
-            <p>To proceed, we need your permission to send data and access your camera.</p><video ref={videoRef} autoPlay></video></div>
+            <p>To proceed, we need your permission to send data and access your camera.</p><video ref={videoRef} autoPlay playsInline></video></div>
           <div>
             <div> <canvas id='canvas' ref={canvasRef}></canvas></div>
             <div>
-              <button onClick={takePhoto}>Take Photo</button>
-              <button onClick={() => { closeModal(); sendDate(); }}>Confirm Send</button></div></div>
+              <button type='button' onClick={takePhoto}>Take Photo</button>
+              <button type='button' onClick={() => { closeModal(); sendDate(); }}>Confirm Send</button></div></div>
         </div>
       </Modal>
 
